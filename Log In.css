@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+}
+
+.loginbox{
+    width: 30%;
+    height: 40%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
