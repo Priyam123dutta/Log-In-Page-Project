@@ -10,17 +10,19 @@
     <div class="background">
         <div class="loginbox">
             <h1>Log In</h1>
-            <form action="">
-                <label for="username">Enter your username</label>
+            <form action="" class="loginsection">
+                <label for="username" id="usernamelabel">Enter your username</label>
                 <input type="text" name="Username" id="username">
 
-                <label for="password">Enter your password</label>
+                <label for="password" id="passwordlabel">Enter your password</label>
                 <input type="password" name="Password" id="password">
 
-                <button>Submit</button>
-                <a href="Forgot Password.html">forgot password</a>
+                <button id="submit">Submit</button>
             </form>
-            <p>If you have not registered the register here</p>
+
+            <a href="Forgot Password.html" id="forgotpassword">forgot password</a>
+
+            <p>If you have not registered yet, then</p>
             <a href="Register.html">Register here</a>
         </div>
     </div>

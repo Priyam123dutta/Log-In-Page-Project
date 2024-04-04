@@ -10,10 +10,66 @@
 
 .loginbox{
     width: 30%;
-    height: 40%;
+    height: 60%;
     margin: auto;
+    border: 5px solid gray;
+    border-radius: 5%;
 }
 
 h1{
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+#usernamelabel{
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#username{
+    width: 300px;
+    display: block;
+    margin-left: 80px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+#passwordlabel{
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#password{
+    width: 300px;
+    display: block;
+    margin-left: 80px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+#submit{
+    width: 60px;
+    height: 30px;
+    border: 2px solid blue;
+    background-color: blueviolet;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#forgotpassword{
+    display: inline-block;
+    margin-left: 280px;
+}
+
+p{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 60px;
 }
